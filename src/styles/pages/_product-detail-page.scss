@@ -1,0 +1,116 @@
+.product-detail-page-inner {
+  .exposure-item-settings {
+    .ant-card-head-title {
+      text-align: center;
+    }
+    .ant-card-body {
+      padding: 5px;
+      position: relative;
+      height: 400px;
+      overflow: auto;
+    }
+    .main-product-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      border-bottom: 1px solid #f1eeee;
+
+      .main-product-item--right-side {
+        button {
+          margin-left: 5px;
+        }
+      }
+    }
+
+    .ant-tabs-nav-wrap {
+      flex: none;
+      margin-right: 20px;
+    }
+
+    .ant-descriptions-item-label {
+      width: 200px;
+    }
+  }
+
+  .display-related-products {
+    padding-top: 20px;
+
+    .ant-descriptions-header {
+      margin-bottom: 10px;
+    }
+
+    .ant-descriptions-item-label {
+      width: 200px;
+    }
+
+    .ant-descriptions-item-content {
+      .ant-form-item {
+        display: table-row;
+      }
+    }
+
+    .ant-radio-group-outline {
+      display: flex;
+
+      .ant-form-item-control-input-content {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .radio-product {
+      .ant-radio-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .radio-product-inner:first-child {
+        
+        padding-right: 10px;
+        margin: 0 10px;
+        border-right: 1px solid #ddd;
+
+      }
+
+      .ant-radio {
+        display: contents;
+      }
+
+      .product-display-img {
+        padding: 6px;
+        border: 1px solid #d9dee3;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+    }
+
+    .product-exposure {
+        display: flex;
+        align-items: center;
+    }
+
+    .ant-form-item {
+        margin-bottom: 0;
+    }
+
+    .tip_box {
+        margin-left: 0;
+    }
+
+    .product-display {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .image-type {
+             margin-right: 8px;
+        }
+    }
+  }
+
+  .btn-confirm {
+    display: flex;
+    margin: 40px auto 20px auto;
+  }
+}

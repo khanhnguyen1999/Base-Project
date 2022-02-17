@@ -1,0 +1,65 @@
+.frequently-options-inner {
+  .ant-form-item {
+    margin-bottom: 0px;
+  }
+
+  .filter-frequently-options {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ced3d8;
+  }
+
+  .register-frequently-form {
+    padding-top: 20px;
+
+    span.anticon.anticon-check {
+      font-size: 10px;
+      color: var(--danger-primary);
+      margin-left: 5px;
+    }
+
+    .ant-descriptions-item-label {
+      width: 250px;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+
+      .ant-btn {
+        margin: 0 5px;
+      }
+    }
+
+    .management-name {
+      display: flex;
+      align-items: center;
+
+      .ant-input {
+        width: 250px;
+        margin-right: 10px;
+      }
+    }
+
+    .tip_box {
+      margin-left: 0;
+
+      &.black {
+        color: black;
+      }
+
+      .confirm {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.table-add-option, .des-add-option {
+  margin-top: 10px;
+
+  .ant-form-item {
+    margin-bottom: 0;
+  }
+}

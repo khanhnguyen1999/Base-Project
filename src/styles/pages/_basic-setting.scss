@@ -1,0 +1,39 @@
+.basic-setting-inner {
+  .ant-descriptions-item-label {
+    width: 250px;
+  }
+
+  .ant-form-item {
+    margin-bottom: 0;
+  }
+
+  .ml-0 {
+    margin-left: 0;
+  }
+
+  .ant-form-item-control-input-content {
+    display: flex;
+    align-items: center;
+
+    .ant-input-number {
+      margin-right: 10px;
+    }
+  }
+
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    background-color: #fff;
+    justify-content: center;
+
+    .ant-btn {
+      margin: 0 5px;
+    }
+  }
+}

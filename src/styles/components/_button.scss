@@ -1,0 +1,38 @@
+.btn-danger {
+  background-color: var(--danger-primary);
+  border: 0px;
+  color: var(--white-text-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--danger-primary);
+  }
+}
+
+.btn-black {
+  background-color: var(--black-primary);
+  border: 0px;
+  color: var(--white-text-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--black-primary);
+  }
+}
+
+.btn-search {
+  background-color: var(--black-primary);
+  color: var(--white-text-color);
+  border: 0px;
+
+  &:hover,
+  &:focus {
+    background-color: var(--black-primary);
+    color: var(--white-text-color);
+  }
+}
+
+.btn-register {
+  height: 46px;
+  line-height: 40px;
+}

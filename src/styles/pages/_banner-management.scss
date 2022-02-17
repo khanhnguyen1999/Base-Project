@@ -1,0 +1,22 @@
+.table-product-icon-list {
+  padding-top: 30px;
+  // border-top: 1px solid #ced3d8;
+  .lineup-center {
+    display: flex;
+    .ant-input-number.ant-input-number-sm,
+    button {
+      margin-right: 2px;
+    }
+  }
+  .table-filter-btn {
+    button {
+      margin-right: 5px;
+      margin-bottom: 10px;
+    }
+  }
+}
+.img-banner{
+  width: 50px;
+  height: 30px;
+  object-fit: cover;
+}

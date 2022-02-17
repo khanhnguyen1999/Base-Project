@@ -1,0 +1,96 @@
+.member-management-inner {
+  .ant-form-item {
+    margin-bottom: 0px;
+  }
+
+  .filter-frequently-options {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ced3d8;
+  }
+
+  .register-frequently-form {
+    padding-top: 20px;
+
+    span.anticon.anticon-check {
+      font-size: 10px;
+      color: var(--danger-primary);
+      margin-left: 5px;
+    }
+
+    .option-member {
+      width: 300px;
+    }
+
+    .ant-descriptions-item-label {
+      width: 250px;
+    }
+
+    .ant-input {
+      width: 300px;
+      margin-right: 10px;
+    }
+    .tip_box {
+      margin-left: 0;
+
+      &.black {
+        color: black;
+      }
+
+      .confirm {
+        text-decoration: underline;
+      }
+    }
+
+    .postal_code {
+      .ant-input {
+        width: 150px;
+      }
+    }
+
+    .address {
+      margin: 8px 0;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      width: 100%;
+      position: -webkit-sticky;
+      position: sticky;
+      bottom: 0;
+      background-color: #fff;
+      justify-content: center;
+
+      .ant-btn {
+        margin: 0 5px;
+      }
+    }
+  }
+
+  .ant-descriptions:nth-child(1) {
+    padding-top: 0px;
+  }
+  .ant-descriptions {
+    padding-top: 40px;
+  }
+
+  .zone-code {
+    display: flex;
+
+    .ant-input {
+      width: 150px;
+    }
+  }
+}
+
+.table-add-option,
+.des-add-option {
+  margin-top: 10px;
+
+  .ant-form-item {
+    margin-bottom: 0;
+  }
+}

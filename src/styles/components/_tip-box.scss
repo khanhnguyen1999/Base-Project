@@ -1,0 +1,22 @@
+.tip_box {
+    display: block;
+    margin-left: 10px;
+    padding-top: 5px;
+    clear: both;
+    text-align: left;
+    color: var(--gray-primary);
+    font-size: 12px;
+
+    &.black {
+      color: #333;
+    }
+
+    span {
+      margin-right: 5px;
+    }
+
+    .underline {
+      text-decoration: underline;
+      margin: 0 5px;
+    }
+  }

@@ -1,0 +1,124 @@
+.product-registration-inner {
+  .ant-row.ant-form-item {
+    margin-bottom: 0px;
+  }
+  .product-image-registration,
+  .information-use,
+  .product-detailed-description,
+  .product-basic-information {
+    margin-top: 40px;
+  }
+  .product-detailed-description {
+   .ant-typography {
+    font-weight: bold;
+   }
+  }
+  .product-category-setting {
+    .ant-descriptions-item-label {
+      width: 10px;
+    }
+    .d-flex {
+      margin-bottom: 10px;
+
+      .ant-form-item {
+        flex: 1;
+      }
+
+      .ant-btn-primary {
+        width: 100px;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .product-basic-information {
+    .ant-descriptions-item-label {
+      width: 145px;
+    }
+
+    span.anticon.anticon-check {
+      font-size: 10px;
+      color: var(--danger-primary);
+      margin-left: 5px;
+    }
+
+    .ant-row.ant-form-item {
+      margin-bottom: 10px;
+    }
+
+    .ant-input-number {
+      width: 250px;
+    }
+  }
+
+  .product-image-registration {
+    .ant-descriptions-item-label {
+      width: 215px;
+    }
+
+    .flex-center-vertical {
+      margin-bottom: 10px;
+
+      .ant-btn {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .information-use {
+    .information-use-top {
+      display: flex;
+      padding-bottom: 16px;
+      border-bottom: 1px dashed #666;
+
+      .ant-select-selector {
+        width: 400px;
+      }
+    }
+
+    .rowEditor {
+      margin-top: 10px;
+    }
+  }
+
+  .tip-box {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    clear: both;
+    text-align: left;
+    color: var(--gray-primary);
+    font-size: 12px;
+
+    span {
+      margin-right: 5px;
+    }
+  }
+
+  .set-hashtags-bottom {
+    padding-top: 24px;
+    border-top: 1px dashed #666;
+
+    .ant-checkbox-wrapper {
+      padding-top: 5px;
+    }
+  }
+
+  .set-hashtags-top {
+    display: inline-block;
+
+    .ant-form-item-control-input-content {
+      display: inherit;
+    }
+
+    .btn-add {
+      margin-left: 10px;
+    }
+  }
+
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}

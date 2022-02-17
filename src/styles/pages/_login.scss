@@ -1,0 +1,99 @@
+.login-page {
+    .ant-row.ant-row-space-around.ant-row-middle {
+      display: flex;
+  
+      .login-form {
+        display: inherit;
+        width: 100%;
+        justify-content: center;
+  
+        .total-admin {
+          height: 100%;
+          background-color: var(--black-primary);
+          padding: 60px 60px;
+  
+          .visual {
+            text-align: center;
+            
+            span.anticon.anticon-lock {
+              color: var(--white-text-color);
+              font-size:  80px;
+            }
+            .tt {
+              color: var(--white-text-color);
+              font-weight: 600;
+              font-size: 35px;
+              padding-bottom: 13px;
+              border-bottom: 1px solid var(--gray-primary);
+              margin-bottom: 16px;
+            }
+            .st {
+              color: var(--gray-text-color);
+              margin-bottom: 4px;
+              letter-spacing: -1px;
+            }
+            .cs {
+              color: var(--gray-text-color);
+              letter-spacing: 0.5px;
+            }
+  
+            button {
+              height: 33px;
+              border: 1px solid var(--gray-primary);
+              box-sizing: border-box;
+              margin-top: 36px;
+              background: none;
+  
+              span {
+                color: var(--gray-text-color);
+                text-align: center;
+                position: relative;
+                letter-spacing: -1px;
+  
+                &:hover {
+                  color: none;
+                }
+              }
+            }
+          }
+        }
+  
+        .ant-card.ant-card-bordered {
+          height: 100%;
+          
+          .ant-typography {
+            text-align: center;
+          }
+        }
+      
+      }
+    
+      .copyright {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 11px;
+  
+        .ant-typography {
+          color: var(--gray-text-color);
+        }
+      }
+  
+      .title-login {
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+  }
+  
+  .question-popover {
+    font-size: 10px;
+    width: 150px;
+  
+    .ant-typography {
+      font-size: 10px!important;
+    }
+    p {
+      margin-bottom: 0px;
+      color: var(--gray-text-color);
+    }
+  }

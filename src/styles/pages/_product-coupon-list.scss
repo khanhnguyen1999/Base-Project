@@ -1,0 +1,120 @@
+.product-coupon-list {
+  .table-store-business {
+    table {
+      font-size: 12px;
+      text-align: center;
+
+      thead th {
+        text-align: center;
+        background: #e6e9eb;
+        padding: 10px 10px;
+        line-height: 15px;
+        font-weight: 600;
+      }
+
+      td {
+        text-align: center;
+        padding: 10 px 10 px;
+        word-wrap: break-word;
+      }
+      .table-btn-gray {
+        background-color: #999 !important;
+        border: 1px solid #999;
+        color: #ffff;
+      }
+      .table-btn {
+        height: 22px;
+        line-height: 18px !important;
+        font-size: 11px !important;
+        padding: 0 5px !important;
+        margin: 5px;
+      }
+    }
+
+    .table-store-filter {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .right {
+      display: flex;
+
+      .order-option {
+        .ant-form-item-control-input {
+          width: 200px;
+        }
+      }
+
+      .order-by-item {
+        margin-left: 10px;
+        .ant-form-item-control-input {
+          width: 100px;
+        }
+      }
+    }
+
+    .left {
+      .ant-btn {
+        margin-right: 10px;
+      }
+    }
+
+    .ant-pagination {
+      .ant-pagination-item-active {
+        border: 1px solid #dbdbdb;
+        font-weight: 600;
+
+        a {
+          color: #ff0000 !important;
+        }
+      }
+    }
+  }
+
+  .register-frequently-form {
+    padding-top: 20px;
+
+    span.anticon.anticon-check {
+      font-size: 10px;
+      color: var(--danger-primary);
+      margin-left: 5px;
+    }
+
+    .ant-descriptions-item-label {
+      width: 250px;
+    }
+
+    .btn-group {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+
+      .ant-btn {
+        margin: 0 5px;
+      }
+    }
+
+    .management-name {
+      display: flex;
+      align-items: center;
+
+      .ant-input {
+        width: 250px;
+        margin-right: 10px;
+      }
+    }
+
+    .tip_box {
+      margin-left: 0;
+
+      &.black {
+        color: black;
+      }
+
+      .confirm {
+        text-decoration: underline;
+      }
+    }
+  }
+}
