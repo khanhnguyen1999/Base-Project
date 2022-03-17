@@ -57,18 +57,28 @@ const LoginForm = ({ loading }: Props) => {
       <Form.Item
         name="password"
         rules={[
+          // {
+          //   required: true,
+          //   message: t("validate:required", undefined, {
+          //     value: t("common:password"),
+          //   }),
+          // },
+          // {
+          //   min: 6,
+          //   max: 15,
+          //   message: t("validate:field-mlte", undefined, {
+          //     min: 6,
+          //     max: 15,
+          //     value: t("common:password"),
+          //   }),
+          // },
           {
             required: true,
+            pattern: new RegExp(
+              "^(?=.*[a-z])(?=.*[A-Z])(?=.*d)(?=.*[@$!%*?&])[A-Za-zd@$!%*?&]{8,}$",
+            ),
+            // message: "Wrong format!"
             message: t("validate:required", undefined, {
-              value: t("common:password"),
-            }),
-          },
-          {
-            min: 6,
-            max: 15,
-            message: t("validate:field-mlte", undefined, {
-              min: 6,
-              max: 15,
               value: t("common:password"),
             }),
           },
